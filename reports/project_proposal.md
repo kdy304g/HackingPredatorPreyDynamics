@@ -3,18 +3,20 @@ By Danny Kang
 
 ## Abstract
 Evolution by natural selection is one of the most widely accepted theory that explains the important question of how we became as we are. Humans, luckily enough, had superior intelligence to endure severe conditions and defend themselves against predators. This, however, is not a common phenomenon among other species. Predators are sometimes more intelligent then preys, or preys are not fast enough to escape from predators. Depending on various factors, the predator-prey dynamics (the population of predator and prey) show different patterns. </br>
+
 Lotka-Volterra Model captures Lynx-Hare system in Canada that was collected by the Hudson Bay Company in 1845-1935 reasonably well. The model is based on two equations that each defines the rate at which population of predator and prey changes according to time. While this model is a good representation of empirical data, an alternative model based on different approach could be made to introduce different perspective on predator prey dynamics. </br>
+
 In this paper, python functions and classes will be used to take an agent based modeling approach to model predator-prey dynamics. The goal of this agent based modeling is to produce similar pattterns to that of empirical data of Hare and Lynx and experiment with parameters to observe and study several interesting predator-prey dynamics.
 
 ## Annotated Bibliography
 ### Reference
 * The Dynamics of the Lynx-Hare System: an Application of the Lotka-Volterra Model
-https://link.springer.com/content/pdf/10.1134%2FS000635091601019X.pdf
+https://link.springer.com/content/pdf/10.1134%2FS000635091601019X.pdf </br>
 This research paper validates the Lotka-Volterra Model by testing symmetry frequency distributions of deviations between the theoretical trajectories and the empirical datasets and presene or absence of serial correlation. According to the validation, Lotka-Volterra Model is suitable for describing empirical data. 
 
 ### Visualization Software
-* Mesa
-https://mesa.readthedocs.io/en/master/
+* Mesa </br>
+https://mesa.readthedocs.io/en/master/ </br>
 Mesa is an agent-based modeling framework in Python. 
 
 ## Experiment
