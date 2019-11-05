@@ -37,7 +37,7 @@ Predators and preys can be modeled as agents living in a grid, with set of rules
 
 ## Result
 Results of experiments would resemble the oscillating pattern of empirical data.
-![Image of visualization](https://github.com/kdy304g/ComplexLizards-CA/blob/master/images/visual.png)
+![Image of visualization](https://github.com/kdy304g/HackingPredatorPreyDynamics/blob/master/images/graph1.png)
 
 ## Result Interpretation
 Agent based modeling approach for predator-prey population can produce various patterns. Either predator or prey could become extinct or there can be a stablized oscillating pattern of ups and downs for both parties. 
