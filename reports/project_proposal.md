@@ -1,5 +1,6 @@
 # Hacking Predator Prey Dynamics
 By Danny Kang
+![Image of visualization](https://github.com/kdy304g/HackingPredatorPreyDynamics/blob/master/images/graph1.png)
 
 ## Abstract
 Evolution by natural selection is one of the most widely accepted theory that explains the important question of how we became as we are. Humans, luckily enough, had superior intelligence to endure severe conditions and defend themselves against predators. This, however, is not a common phenomenon among other species. Predators are sometimes more intelligent then preys, or preys are not fast enough to escape from predators. Depending on various factors, the predator-prey dynamics (the population of predator and prey) show different patterns. </br>
