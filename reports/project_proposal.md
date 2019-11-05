@@ -39,7 +39,7 @@ Predators and preys can be modeled as agents living in a grid, with set of rules
 * If predators actively chase preys instead of moving randomly, under what condition or parameters would agent based modeling be able to produce similar pattern to that of empirical data?
 
 ## Result
-Results of experiments would resemble the oscillating pattern of empirical data.
+Results of experiments would resemble the oscillating pattern of empirical data. In this case, solid line represents number of prey according to Lotka-Volterra Model and dashed line represents empirical data.
 ![Image of visualization](https://github.com/kdy304g/HackingPredatorPreyDynamics/blob/master/images/graph1.png)
 
 ## Result Interpretation
