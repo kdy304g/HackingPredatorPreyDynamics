@@ -1,5 +1,5 @@
 # Hacking Predator Prey Dynamics
-By Danny Kang
+By Danny Kang </br>
 ![Image of visualization](https://github.com/kdy304g/HackingPredatorPreyDynamics/blob/master/images/5d657ee2baf4d.image.jpg)
 
 ## Abstract
