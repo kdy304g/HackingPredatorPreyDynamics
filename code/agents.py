@@ -74,7 +74,6 @@ class Wolf(Mover):
             self.model.schedule.remove(self)
         else:
             if random.random() < self.model.wolf_reproduce:
-                # Create a new wolf cub
                 self.energy /= 2
                 cub = Wolf(self.pos, self.model, self.diagonal, self.energy)
                 self.model.grid.place_agent(cub, cub.pos)

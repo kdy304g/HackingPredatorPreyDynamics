@@ -9,9 +9,9 @@ from code.schedule import RandomActivationByBreed
 class WolfSheepPredation(Model):
     verbose = False  
     def __init__(self, height=20, width=20,
-                 initial_wolves=40, wolf_reproduce=0.05, wolf_gain_from_food=20,
-                 initial_sheep=100, sheep_reproduce=0.04, sheep_gain_from_food=4,
-                 grass=True, grass_regrowth_time=30 ):
+                 initial_wolves=40, wolf_reproduce=0.04, wolf_gain_from_food=20,
+                 initial_sheep=100, sheep_reproduce=0.05, sheep_gain_from_food=4,
+                 grass=False, grass_regrowth_time=30 ):
 
         self.height = height
         self.width = width
@@ -45,7 +45,7 @@ class WolfSheepPredation(Model):
             self.grid.place_agent(sheep, (x, y))
             self.schedule.add(sheep)
 
-        # CGreate grass patches
+        # Create grass patches
         if self.grass:
             for agent, x, y in self.grid.coord_iter():
                 fully_grown = random.choice([True, False])
