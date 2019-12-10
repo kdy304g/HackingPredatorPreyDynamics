@@ -13,11 +13,11 @@ We can approach this problem from a different angle using agent based models. Ra
 We start from the most simple model where there are only wolves and sheeps in the living environment. Agents are born with set amount of energy and each time they move, their energy is reduced by certain amount. For the population increase, agents reproduce under predetermined probability. 
 
 ### Model
-Wolves and sheeps live on two dimensional square grid. The grid is initialized with set number of wolves and sheeps where they behave according to rules that govern their moves. More specifically, the model starts with 100sheeps and 40 wolves. Location of agents is random on the 20 by 20 grid.</br>
+Wolves and sheeps live on two dimensional square grid. The grid is initialized with set number of wolves and sheeps where they behave according to rules that govern their moves. More specifically, the model starts with 100 sheeps and 40 wolves. Location of agents is random on the 20 by 20 grid.</br>
 
 *Wolf rules* </br>
 1. Move randomly to an adjacent cell and decrease energy
-2. If on the same cell as one or mroe sheep, then eat a sheep and increase energy (eaten sheep dies)
+2. If on the same cell as one or more sheep, then eat a sheep and increase energy (eaten sheep dies)
 3. If energy < 0 then die
 4. With certain, probability reporduce
 
@@ -42,14 +42,14 @@ In figure 2, reproducibility of wolves is three percent. Unlike in the previous 
 The model was also tested with different reproducibility for wolves and sheeps and it did not produce the desired cyclical pattern as in the L-V model. 
 
 ## Experiment (with grass)
-It is not hard to realize the limit of the previous model. The problem is that either the population of sheeps explode and never decrease or that no one survives in the environment because the population of wolves over dominate that of sheeps. To get as close as possible to the pattern in the L-V model, we can conjecture that adding a limiting factor to the population of sheeps while the wolves has low reproducibility would produce somewhat similar patterns. 
+It is not hard to realize the limit of the previous model. The problem is that either the population of sheeps explode and never decrease or that no one survives in the environment because the population of wolves over dominate that of sheeps. To get as close as possible to the pattern in the L-V model, we can conjecture that adding a limiting factor to the population of sheeps while the wolves have low reproducibility would produce somewhat similar patterns. 
 
 ### Model
 Everything is the same in this model except for the addition of new agent, grass. Grass don't move in any direction and its whole purpose of existence is to be eaten by sheeps. Now, sheeps need grass for survival since their metabolism is not ridiculously efficient(surviving without food) anymore. Grass regrows after being eaten by sheeps every 30 steps. </br>
 
 *Wolf rules* </br>
 1. Move randomly to an adjacent cell and decrease energy
-2. If on the same cell as one or mroe sheep, then eat a sheep and increase energy
+2. If on the same cell as one or more sheep, then eat a sheep and increase energy
 3. If energy < 0 then die
 4. With certain probability, reporduce
 
