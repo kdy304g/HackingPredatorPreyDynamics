@@ -24,13 +24,15 @@ Wolves and sheeps live on two dimensional square grid. The grid is initialized w
 
 ### Result & Interpretation
 <p align="center">
-   <img src="https://github.com/kdy304g/HackingPredatorPreyDynamics/blob/master/images/1.png" />
-   *Fig. 1: When wolf has low reproducibility*
+  <figure>
+     <img src="https://github.com/kdy304g/HackingPredatorPreyDynamics/blob/master/images/1.png" />
+     <figcaption>Fig. 1: When wolf has low reproducibility</figcaption>
+  </figure>
 </p>
 
 <p align="center">
    <img src="https://github.com/kdy304g/HackingPredatorPreyDynamics/blob/master/images/2.png" />
-   *Fig. 2: When wolf has high reproducibility*
+   Fig. 2: When wolf has high reproducibility
 </p>
 
 ![Image](https://github.com/kdy304g/HackingPredatorPreyDynamics/blob/master/images/1.png) </br>
