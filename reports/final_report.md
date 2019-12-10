@@ -19,7 +19,7 @@ Wolves and sheeps live on two dimensional square grid. The grid is initialized w
 1. Move randomly to an adjacent cell and decrease energy
 2. If on the same cell as one or more sheep, then eat a sheep and increase energy (eaten sheep dies)
 3. If energy < 0 then die
-4. With certain, probability reporduce
+4. With certain, probability reproduce
 
 *Sheep rules* </br>
 1. Move randomly to an adjacent cell
@@ -51,7 +51,7 @@ Everything is the same in this model except for the addition of new agent, grass
 1. Move randomly to an adjacent cell and decrease energy
 2. If on the same cell as one or more sheep, then eat a sheep and increase energy
 3. If energy < 0 then die
-4. With certain probability, reporduce
+4. With certain probability, reproduce
 
 *Sheep rules* </br>
 1. Move randomly to an adjacent cell
