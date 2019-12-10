@@ -1,6 +1,9 @@
 # Hacking Predator Prey Dynamics
 By Danny Kang </br>
-![Image of visualization](https://github.com/kdy304g/HackingPredatorPreyDynamics/blob/master/images/5d657ee2baf4d.image.jpg)
+
+<p align="center">
+     <img src="https://github.com/kdy304g/HackingPredatorPreyDynamics/blob/master/images/0.jpg" />
+</p>
 
 ## Motivating Question
 The dynamics of interacting populations of predators and their prey have long been a topic of interest in population biology. Classical model that explains this predator-prey dynamics is Lotka-Volterra Model which explains the relationship in terms of differential euqations. According to Lotka-Volterra Model, the population of both predator and prey go through cyclical fluctuations. </br>
@@ -86,6 +89,9 @@ http://ccl.northwestern.edu/papers/wolfsheep.pdf </br>
 
 * The Dynamics of the Lynx-Hare System: an Application of the Lotka-Volterra Model
 https://link.springer.com/content/pdf/10.1134%2FS000635091601019X.pdf </br>
+
+* The Computational Beauty of Nature </br>
+Gary William Flake
 
 ### Visualization Software
 * Mesa </br>
