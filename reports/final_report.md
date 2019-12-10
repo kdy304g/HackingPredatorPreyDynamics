@@ -23,12 +23,12 @@ Wolves and sheeps live on two dimensional square grid. The grid is initialized w
 2. With certain probability, reproduce
 
 ### Result & Interpretation
-There are many ways to influence the population dynamics of this model by changing value of parameters. To list some of them are: metabolism of agents, amount of energy gain by a wolf when eat consumes a sheep, and reproducibility of agents. In a grid as small as its size being 20 by 20, reproducibility of wolves has the most powerful influence on the population dynamics. Increasing its value even by one percent brings huge change. If the reproducibility of wolves is 5 percent, then each wolves produce its offspring every twenty stpes and the population increase is exponential. </br>
+There are many ways to influence the population dynamics of this model by changing value of parameters. To list some of them, metabolism of agents, amount of energy gain by a wolf when eat consumes a sheep, and reproducibility of agents. In a grid as small as its size being 20 by 20, reproducibility of wolves has the most powerful influence on the population dynamics. Increasing its value even by one percent brings huge change. If the reproducibility of wolves is 5 percent, then each wolves produce its offspring every twenty stpes and the population increase is exponential. </br>
 <p align="center">
      <img src="https://github.com/kdy304g/HackingPredatorPreyDynamics/blob/master/images/1.png" />
      <figcaption>Fig. 1: When wolf has low reproducibility</figcaption>
 </p>
-In figure 1, reproducibility of wolves is one percent. Initially, the number of sheeps decreases drastically untill step 80. Population of sheep becomes less then that of wolves at about step 20. Similar to the L-V model, the population of sheeps surpasses that of the wolves around step 140. Unfortunately, the cyclical pattern is not observed in this graph as in the L-V model. Rather, the population of sheeps explodes after step 150 while the poulation of wolves reamins steady due to its low reproducibility.
+In figure 1, reproducibility of wolves is one percent. Initially, the number of sheeps decreases drastically untill step 80. Population of sheep becomes less then that of wolves at about step 20. Similar to the L-V model, the population of sheeps surpasses that of the wolves around step 140. Unfortunately, the cyclical pattern is not observed in this graph as in the L-V model. Rather, the population of sheeps explodes after step 150 while the poulation of wolves reamins steady due to its low reproducibility. </br>
 
 <p align="center">
    <img src="https://github.com/kdy304g/HackingPredatorPreyDynamics/blob/master/images/2.png" />
@@ -44,13 +44,13 @@ It is not hard to realize the limit of the previous model. The problem is that e
 ### Model
 Everything is the same in this model except for the addition of new agent, grass. Grass don't move in any direction and its whole purpose of existence is to be eaten by sheeps. Now, sheeps need grass for survival since their metabolism is not ridiculously efficient(surviving without food) anymore. Grass regrows after being eaten by sheeps every 30 steps. </br>
 
-*Predator rules* </br>
+*Wolf rules* </br>
 1. Move randomly to an adjacent cell and decrease energy
 2. If on the same cell as one or mroe sheep, then eat a sheep and increase energy
 3. If energy < 0 then die
 4. With certain probability, reporduce
 
-*Prey rules* </br>
+*Sheep rules* </br>
 1. Move randomly to an adjacent cell
 2. If on the same cell as grass, then eat grass and increase energy
 3. If energy <0 then die
@@ -65,13 +65,20 @@ Everything is the same in this model except for the addition of new agent, grass
      <img src="https://github.com/kdy304g/HackingPredatorPreyDynamics/blob/master/images/3.png" />
      <figcaption>Fig. 3: When wolf has low reproducibility</figcaption>
 </p>
+In figure 3, the population of sheep sharply decreases initially untill step 40. The population of wolf also decreases but not as drastically as sheep untill step 100. The population of sheep reaches its first peak at around step 150 after its sharp decrease from beginning. After that, it fluctuates between 40 and 20. The population of wolf stays between 3 and 5 until it goes extinct at step 740. </br>
 
 <p align="center">
      <img src="https://github.com/kdy304g/HackingPredatorPreyDynamics/blob/master/images/4.png" />
-     <figcaption>Fig. 3: When wolf has high reproducibility</figcaption>
+     <figcaption>Fig. 4: When wolf has high reproducibility</figcaption>
 </p>
+Unlike figure 3, the population of wolf does not decrease sharply in figure 4. This is because of the higher reproducibility of wolf. The population of sheep decreases sharply and slowly increases once wolvese become extinct. From figure 4, we can tell that when reproducibility of wolves is high, wolves deplete their food source too fast that they are bound to become extinct shortly. </br>
+
+Of all the figures shown above, the longest coexistence of wolf and sheep is in figure 3. The difference between the experiments for figure 1 and 3 is that in the experiment for figure 3, grass actively fulfills its role as an inhibiting factor against sheep population since sheeps have limited food source for survival. Another insight is that the equilibrium between wolves and sheeps in figure 3 is maintained untill about step 700 while the population of wolves is small. Wolves start with the population of 40 and they persist by being reduced to population of only 3 to 5. 
 
 ## Conclusion & Future Works
+Manipulating the parameters for the models yield different patterns in the population of agents. So far, sustainable model where all agents coexist permanently could not be achieved. However, the oscillating pattern in the L-V model is replicated (Fig. 3) in the model where grass is a limiting factor for sheeps and wolves have low reproducibility. </br>
+There are many ways models above could be extended and complicated. Models constructed in this paper are result of oversimplification of real world system. For example, agents in this paper move purposelessly in random directions whereas in the real world, predators can chase preys from far distance. Also, sheeps in this paper are inevitably consumed by wolves when they encounter each other in the same cell, but in the real world, there is a chance that prey escapes away from predator. 
+
 
 ## Reference
 * Thinking like a wolf, a sheep, or a firefly </br>
