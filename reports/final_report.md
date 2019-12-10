@@ -12,17 +12,21 @@ We start from the most simple model where there are only wolves and sheeps in th
 ### Model
 Wolves and sheeps live on two dimensional square grid. The grid is initialized with set number of wolves and sheeps where they behave according to rules that govern their moves. Location of agents is random on the 20 by 20 grid.</br>
 
-*Wolf rules </br>
+*Wolf rules* </br>
 1. Move randomly to an adjacent cell and decrease energy
 2. If on the same cell as one or mroe sheep, then eat a sheep and increase energy (eaten sheep dies)
 3. If energy < 0 then die
 4. With certain probability reporduce
 
-*Sheep rules </br>
+*Sheep rules* </br>
 1. Move randomly to an adjacent cell
 2. With certain probability, reproduce
 
 ### Result & Interpretation
+<p align="center">
+   <img src="https://github.com/kdy304g/HackingPredatorPreyDynamics/blob/master/images/1.png" width="700" height="350" />
+</p>
+
 ![Image](https://github.com/kdy304g/HackingPredatorPreyDynamics/blob/master/images/1.png) </br>
 *Fig. 1: When wolf has low reproducibility*
 
