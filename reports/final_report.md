@@ -24,7 +24,10 @@ Wolves and sheeps live on two dimensional square grid. The grid is initialized w
 
 ### Result & Interpretation
 wolf low reproducibility
+![Image](https://github.com/kdy304g/HackingPredatorPreyDynamics/blob/master/images/1.png)
+
 wolf high reproducivility
+![Image](https://github.com/kdy304g/HackingPredatorPreyDynamics/blob/master/images/2.png)
 
 ## Experiment (with grass)
 
